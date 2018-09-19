@@ -1,6 +1,10 @@
 body {
 	margin: 0;
 	padding: 0;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	color: rgb(0,0,0,0.75);
+	letter-spacing: 0.2px;
 }
 
 .content {
@@ -8,6 +12,14 @@ body {
 	background-image: url("../imgs/background@0,5x.jpg");
 	background-repeat: no-repeat;
 	background-size: 75%;
+	font-family: 'Open Sans', sans-serif;
 }
+
+h1,h2,h3 {
+	font-family: 'Share Tech Mono', monospace;
+	color: rgb(0,0,0);
+}
+
+h2 { font-size: 2em; }
 
 .logo { width: 20%; }
