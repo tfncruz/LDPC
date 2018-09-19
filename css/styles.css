@@ -1,0 +1,11 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	background-color: rgb(255,255,255);
+	background-image: url("../imgs/background@0,5x.jpg");
+	background-repeat: no-repeat;
+	background-size: 75%;
+}
