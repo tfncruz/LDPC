@@ -13,6 +13,8 @@ body {
 	background-repeat: no-repeat;
 	background-size: 75%;
 	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 h1,h2,h3 {
@@ -22,4 +24,30 @@ h1,h2,h3 {
 
 h2 { font-size: 2em; }
 
-.logo { width: 20%; }
+a { text-decoration: none; }
+
+header { width: 100%; }
+
+.logo {
+	width: 20%;
+	margin-left: 15%;
+}
+
+.navigation {
+	font-family: 'Share Tech Mono', monospace;
+	margin-left: 15%;
+}
+
+.navigation a { color: #fff; }
+.navigation a:hover { color: rgb(0,0,0); }
+
+.navigation ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+main {
+	width: 65%;
+	margin: 0 10% 0 25%;
+}
