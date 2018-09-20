@@ -54,6 +54,11 @@
 	main { margin-top: 5em; }
 }
 
-@media screen and (min-width: 900px) {
-	main { margin-top: 10em; }
+@media screen and (min-width: 1000px) {
+	main {
+		background-color: #fff;
+		padding: 1em;
+	}
+
+	#objectives h2 { margin-top: 1em; }
 }
