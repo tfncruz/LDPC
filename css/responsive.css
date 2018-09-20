@@ -41,7 +41,9 @@
 		flex-wrap: wrap;
 	}
 
-	.obj-gerais, .obj-especificos { width: calc(50% - 1em); padding:0 0.5em; }
+	.obj-gerais { width: 100%; }
+
+	.obj-especificos, .linhas-atuacao { width: calc(50% - 1em); padding:0 0.5em; }
 }
 
 @media screen and (min-width: 900px) {
