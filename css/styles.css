@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	line-height: 1.5em;
 	color: rgb(0,0,0,0.75);
 	letter-spacing: 0.2px;
@@ -11,51 +11,70 @@ body {
 	background-color: rgb(255,255,255);
 	background-image: url("../imgs/background@0,5x.jpg");
 	background-repeat: no-repeat;
-	background-size: 75%;
+	background-size: 100%;
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 	flex-wrap: wrap;
+	min-width: 320px;
 }
 
 h1,h2,h3 {
 	font-family: 'Share Tech Mono', monospace;
 	color: rgb(0,0,0);
+	letter-spacing: -1px;
+	margin: 2em 0 0.5em 0;
 }
 
-h2 { font-size: 2em; }
+h2 {
+	font-size: 2em;
+}
 
-a { text-decoration: none; }
+a {
+	display: block;
+	text-decoration: none;
+}
 
 header { width: 100%; }
 
 .logo {
-	width: 20%;
-	margin-left: 15%;
+	width: 50%;
+	margin-left: 10%;
+	vertical-align: middle;
 }
 
 .navigation {
+	width: calc(20% - 1em);
 	font-family: 'Share Tech Mono', monospace;
-	margin-left: 15%;
+	margin-left: 10%;
+	background-color: rgb(255,255,255,0.5);
+	padding: 0.5em;
 }
 
-.navigation a { color: #fff; }
-.navigation a:hover { color: rgb(0,0,0); }
+.subnavigation { padding-left: 1em; }
 
-.navigation ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
+.navigation a { color: rgb(0,0,0,0.75); }
+
+.navigation a:hover { color: #fff; }
 
 main {
-	width: 65%;
-	margin: 0 10% 0 25%;
+	width: 85%;
+	margin: 0 5% 0 10%;
 }
 
 footer {
 	width: 100%;
 	font-size: 0.8em;
-	padding: 0 10% 0 25%;
+	padding: 0 0 0 10%;
 	color: #fff;
 	background-color: rgb(94,105,149);
+	margin-top: 1em;
+}
+
+.contact-link {
+	color: rgb(94,105,149);
+	text-decoration: underline;
+}
+
+.contact-link:hover {
+	color: #000;
 }
