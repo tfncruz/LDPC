@@ -28,17 +28,11 @@
 }
 
 @media screen and (min-width: 800px) {
-	.content {
-		background-size: 70%;
-	}
+	.content { background-size: 70%; }
 
-	.logo {
-		width: 20%;
-	}
+	.logo { width: 20%; }
 
-	.navigation {
-		width: calc(20% - 1em);
-	}
+	.navigation { width: calc(20% - 1em); }
 
 	main { max-width: 650px; }
 
@@ -48,4 +42,16 @@
 	}
 
 	.obj-gerais, .obj-especificos { width: calc(50% - 1em); padding:0 0.5em; }
+}
+
+@media screen and (min-width: 900px) {
+	.logo { width: 15%; }
+
+	.navigation { width: calc(15% - 1em); }
+
+	main { margin-top: 5em; }
+}
+
+@media screen and (min-width: 900px) {
+	main { margin-top: 10em; }
 }
