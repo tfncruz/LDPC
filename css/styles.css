@@ -37,6 +37,8 @@ a {
 header { width: 100%; }
 
 .logo {
+	background-color: #fff;
+	padding: 1em;
 	width: 50%;
 	margin-left: 45%;
 	vertical-align: middle;
