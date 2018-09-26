@@ -38,8 +38,8 @@ header { width: 100%; }
 
 .logo {
 	background-color: #fff;
-	padding: 1em;
-	width: 50%;
+	padding: 1.5em;
+	width: calc(50% - 3em);
 	margin-left: 45%;
 	vertical-align: middle;
 }
@@ -48,7 +48,8 @@ header { width: 100%; }
 	font-family: 'Share Tech Mono', monospace;
 	margin-left: 45%;
 	background-color: rgb(255,255,255,0.5);
-	padding: 0.5em;
+	padding: 1.5em;
+	width: calc(50% - 3em);
 }
 
 .subnavigation { padding-left: 1em; }
