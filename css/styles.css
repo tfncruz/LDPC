@@ -54,6 +54,7 @@ header { width: 100%; }
 .navigation a { color: rgb(0,0,0,0.75); }
 
 .navigation a:hover { color: #fff; }
+.navigation a:focus { color: rgb(0,0,0,0.75); }
 
 main {
 	width: 85%;
