@@ -14,4 +14,4 @@ Tiago Cruz
 ## coordenação do projecto
 Fernando Paulino
 
-copyright © 2018 LDPC - todos os direitos reservados
+copyright © 2026 LDPC - todos os direitos reservados
