@@ -8,6 +8,8 @@ A cultura, em toda a sua variedade de formas, expressões, práticas e conheci
 
 Assim, o projeto visa igualmente promover a igualdade de género ao ser decisiva para ampliar a definição de património cultural e aumentar o seu alcance e significado para benefício de toda a sociedade. Uma participação mais ampla nas atividades e práticas patrimoniais pode gerar benefícios importantes para o empoderamento da mulher bem como para o conjunto da comunidade, contribuindo assim para as indústrias culturais e o turismo dos locais e regiões.
 
+https://tfncruz.github.io/LDPC/
+
 ## desenvolvimento web
 Tiago Cruz
 
